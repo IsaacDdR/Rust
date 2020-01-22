@@ -1,13 +1,17 @@
 fn main() { 
+
+    let x = plus_one(10);
+
+    println!("Here is your sum bitch!:{}", x);
     
-    println!("Hello Rust!");
-    
-    another_function(5);
 }
 
-fn another_function(number: i32) {
+fn plus_one(x: i32) -> i32 {
 
-    println!("This is the number, bitch: {}", number );
+    x + 1
 
 }
+
+
+
 
